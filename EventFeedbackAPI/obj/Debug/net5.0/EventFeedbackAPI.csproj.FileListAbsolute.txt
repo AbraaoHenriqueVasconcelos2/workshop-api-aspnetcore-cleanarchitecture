@@ -29,7 +29,6 @@ C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFe
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -61,7 +60,6 @@ C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFe
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\scopedcss\bundle\EventFeedbackAPI.styles.css
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\staticwebassets\EventFeedbackAPI.StaticWebAssets.Manifest.cache
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\EventFeedbackAPI.RazorTargetAssemblyInfo.cache
-C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\EventFeedbackAPI.csproj.CopyComplete
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\EventFeedbackAPI.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\ref\EventFeedbackAPI.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\EventFeedbackAPI.pdb
@@ -72,3 +70,5 @@ C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFe
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI\obj\Debug\net5.0\EventFeedbackAPI.csproj.CopyComplete

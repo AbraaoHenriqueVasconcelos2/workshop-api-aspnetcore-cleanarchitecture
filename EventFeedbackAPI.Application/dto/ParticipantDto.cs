@@ -18,7 +18,12 @@ namespace EventFeedbackAPI.Application.dto
         [StringLength(20, MinimumLength = 11, ErrorMessage = "The maximum number of characters is 20")]
         public string Cpf { get;  set; }
 
-        [Required(ErrorMessage = "cpf is required!")]
+        [Required(ErrorMessage = "password is required!")]
+        [StringLength(20,   ErrorMessage = "The maximum number of characters is 20")]
+        public string Password { get; set; }
+
+
+        [Required(ErrorMessage = "Name is required!")]
         [StringLength(100, ErrorMessage = "The maximum number of characters is 100")]
         public string Name { get;  set; }
 

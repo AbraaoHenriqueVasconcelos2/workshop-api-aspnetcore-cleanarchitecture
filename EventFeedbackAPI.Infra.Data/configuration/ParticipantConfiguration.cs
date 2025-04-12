@@ -15,6 +15,7 @@ namespace EventFeedbackAPI.Infra.Data.configuration
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Cpf).HasMaxLength(20).IsRequired();
+            builder.Property(x => x.Password).HasMaxLength(20).IsRequired();
             builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
             builder.Property(x => x.Address).HasMaxLength(100);
             builder.Property(x => x.City).HasMaxLength(100);

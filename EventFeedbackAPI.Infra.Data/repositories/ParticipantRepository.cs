@@ -37,6 +37,8 @@ namespace EventFeedbackAPI.Infra.Data.repositories
                 return null;
             }
 
+            participantUpdated.Cpf = participant.Cpf;
+            participantUpdated.Password = participant.Password;
             participantUpdated.Name = participant.Name;
             participantUpdated.Address = participant.Address;
             participantUpdated.City = participant.City;

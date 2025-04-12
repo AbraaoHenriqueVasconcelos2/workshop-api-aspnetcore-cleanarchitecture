@@ -17,7 +17,7 @@ namespace EventFeedbackAPI.Infra.Data.configuration
             builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
             builder.Property(x => x.Date).IsRequired();
             builder.Property(x => x.Location).HasMaxLength(100).IsRequired();
-            builder.Property(x => x.Location).HasMaxLength(500);
+            builder.Property(x => x.Description).HasMaxLength(500);
 
         }
     }

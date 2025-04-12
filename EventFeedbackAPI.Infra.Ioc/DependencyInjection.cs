@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 using EventFeedbackAPI.Infra.Data.context;
 using EventFeedbackAPI.Infra.Data.repositories;
 using EventFeedbackAPI.Domain.interfaces;
@@ -6,8 +8,9 @@ using EventFeedbackAPI.Application.mapper;
 using EventFeedbackAPI.Application.interfaces;
 using EventFeedbackAPI.Application.services;
 
-
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+ 
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
@@ -25,10 +28,35 @@ namespace EventFeedbackAPI.Infra.Ioc
                     x => x.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
             }));
 
+            services.AddAuthentication(opt =>  {
+                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            }).AddJwtBearer(options =>
+           {
+               options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidateAudience = true,
+                   ValidateLifetime = true,
+                   ValidateIssuerSigningKey = true,
+                   ValidIssuer = configuration["jwt:issuer"],
+                   ValidAudience = configuration["jwt:audience"],
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["jwt:secrectKey"])),
+                   ClockSkew = TimeSpan.Zero
+               };
+           }); 
+
+
+
+
             services.AddAutoMapper(typeof(Mapper));
 
             services.AddScoped<IParticipantRepository, ParticipantRepository>();
             services.AddScoped<IParticipantService, ParticipantService>();
+
+            services.AddScoped<IEventRepository, EventRepository>();
+            services.AddScoped<IEventService, EventService>();
 
             return services;
 

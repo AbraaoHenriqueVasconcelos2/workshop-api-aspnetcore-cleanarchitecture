@@ -15,6 +15,7 @@ namespace EventFeedbackAPI.Application.mapper
         public Mapper()
         {
             CreateMap<Participant, ParticipantDto>().ReverseMap();
+            CreateMap<Event, EventDto>().ReverseMap();
            
         }
     }
