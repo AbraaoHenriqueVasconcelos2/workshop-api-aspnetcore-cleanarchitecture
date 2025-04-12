@@ -1,0 +1,382 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI\\EventFeedbackAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Application\\EventFeedbackAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Application\\EventFeedbackAPI.Application.csproj",
+        "projectName": "EventFeedbackAPI.Application",
+        "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Application\\EventFeedbackAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\DRM\\.nuget\\packages\\",
+        "outputPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj": {
+                "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj",
+        "projectName": "EventFeedbackAPI.Domain",
+        "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\DRM\\.nuget\\packages\\",
+        "outputPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Data\\EventFeedbackAPI.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Data\\EventFeedbackAPI.Infra.Data.csproj",
+        "projectName": "EventFeedbackAPI.Infra.Data",
+        "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Data\\EventFeedbackAPI.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\DRM\\.nuget\\packages\\",
+        "outputPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj": {
+                "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Ioc\\EventFeedbackAPI.Infra.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Ioc\\EventFeedbackAPI.Infra.Ioc.csproj",
+        "projectName": "EventFeedbackAPI.Infra.Ioc",
+        "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Ioc\\EventFeedbackAPI.Infra.Ioc.csproj",
+        "packagesPath": "C:\\Users\\DRM\\.nuget\\packages\\",
+        "outputPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Application\\EventFeedbackAPI.Application.csproj": {
+                "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Application\\EventFeedbackAPI.Application.csproj"
+              },
+              "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj": {
+                "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Domain\\EventFeedbackAPI.Domain.csproj"
+              },
+              "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Data\\EventFeedbackAPI.Infra.Data.csproj": {
+                "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Data\\EventFeedbackAPI.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI\\EventFeedbackAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI\\EventFeedbackAPI.csproj",
+        "projectName": "EventFeedbackAPI",
+        "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI\\EventFeedbackAPI.csproj",
+        "packagesPath": "C:\\Users\\DRM\\.nuget\\packages\\",
+        "outputPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DRM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Ioc\\EventFeedbackAPI.Infra.Ioc.csproj": {
+                "projectPath": "C:\\temporario\\Workshop-API-AspNetCore-CleanArchitecture\\EventFeedbackAPI\\EventFeedbackAPI.Infra.Ioc\\EventFeedbackAPI.Infra.Ioc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

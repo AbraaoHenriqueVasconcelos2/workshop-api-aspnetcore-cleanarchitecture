@@ -1,0 +1,17 @@
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Infra.Data.deps.json
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Infra.Data.runtimeconfig.json
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Infra.Data.runtimeconfig.dev.json
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Infra.Data.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\ref\EventFeedbackAPI.Infra.Data.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Infra.Data.pdb
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Domain.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\bin\Debug\net5.0\EventFeedbackAPI.Domain.pdb
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.csproj.AssemblyReference.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.AssemblyInfoInputs.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.AssemblyInfo.cs
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.csproj.CoreCompileInputs.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\ref\EventFeedbackAPI.Infra.Data.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.pdb
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Data\obj\Debug\net5.0\EventFeedbackAPI.Infra.Data.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\EventFeedbackAPI.Application.deps.json
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\EventFeedbackAPI.Application.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\ref\EventFeedbackAPI.Application.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\EventFeedbackAPI.Application.pdb
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\EventFeedbackAPI.Domain.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\EventFeedbackAPI.Domain.pdb
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.csproj.AssemblyReference.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.AssemblyInfoInputs.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.AssemblyInfo.cs
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.csproj.CoreCompileInputs.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\ref\EventFeedbackAPI.Application.dll
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.pdb
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\obj\Debug\net5.0\EventFeedbackAPI.Application.csproj.CopyComplete

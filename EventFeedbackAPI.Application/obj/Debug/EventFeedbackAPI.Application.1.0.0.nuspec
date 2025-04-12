@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EventFeedbackAPI.Application</id>
+    <version>1.0.0</version>
+    <authors>EventFeedbackAPI.Application</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="EventFeedbackAPI.Domain" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Application\bin\Debug\net5.0\EventFeedbackAPI.Application.dll" target="lib\net5.0\EventFeedbackAPI.Application.dll" />
+  </files>
+</package>
