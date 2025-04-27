@@ -27,6 +27,7 @@ namespace EventFeedbackAPI.Application.services
 
         public async Task<ParticipantDto> Create(ParticipantDto participantDto)
         {
+            participantDto.IsAdmin = false;
             var participant = _mapper.Map<Participant>(participantDto);
             var participantInserted = await _repository.Create(participant);
             return _mapper.Map<ParticipantDto>(participantInserted);

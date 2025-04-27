@@ -28,15 +28,15 @@ namespace EventFeedbackAPI.Infra.Data.identity
             _configuration = configuration;
         }
 
-        public async Task<bool> AuthenticateAsync(string cpf, string password)
+        public async Task<Participant> AuthenticateAsync(string cpf, string password)
         {
-            var participant = await _context.Participant.Where(x => x.Cpf.ToLower() == cpf.ToLower()).Where(x => x.Password.Trim() == password.Trim()).FirstOrDefaultAsync();
+            Participant participant = await _context.Participant.Where(x => x.Cpf.ToLower() == cpf.ToLower()).Where(x => x.Password.Trim() == password.Trim()).FirstOrDefaultAsync();
             if(participant == null)
             {
-                return false;
+                return null;
             }
 
-            return true;
+            return participant;
         }
 
         public async Task<bool> participantExists(string cpf)

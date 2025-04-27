@@ -25,7 +25,7 @@ namespace EventFeedbackAPI.Infra.Data.configuration
                 .HasForeignKey(x => x.IdEvent)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            builder.HasOne(x => x.participant).WithMany(x => x.feedbacks)
+            builder.HasOne(x => x.Participant).WithMany(x => x.feedbacks)
                 .HasForeignKey(x => x.IdParticipant)
                 .OnDelete(DeleteBehavior.NoAction);
         }

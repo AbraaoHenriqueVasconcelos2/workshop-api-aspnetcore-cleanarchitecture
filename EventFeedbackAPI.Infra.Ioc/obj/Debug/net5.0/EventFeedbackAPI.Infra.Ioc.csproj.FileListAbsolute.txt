@@ -15,8 +15,8 @@ C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFe
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.AssemblyInfoInputs.cache
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.AssemblyInfo.cs
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.csproj.CoreCompileInputs.cache
+C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.csproj.CopyComplete
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\ref\EventFeedbackAPI.Infra.Ioc.dll
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.pdb
 C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.genruntimeconfig.cache
-C:\temporario\Workshop-API-AspNetCore-CleanArchitecture\EventFeedbackAPI\EventFeedbackAPI.Infra.Ioc\obj\Debug\net5.0\EventFeedbackAPI.Infra.Ioc.csproj.CopyComplete

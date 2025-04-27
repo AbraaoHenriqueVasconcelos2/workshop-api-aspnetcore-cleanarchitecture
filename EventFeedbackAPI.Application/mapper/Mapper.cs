@@ -16,6 +16,11 @@ namespace EventFeedbackAPI.Application.mapper
         {
             CreateMap<Participant, ParticipantDto>().ReverseMap();
             CreateMap<Event, EventDto>().ReverseMap();
+            CreateMap<Feedback, FeedbackDtoOut>().ReverseMap()
+                .ForMember(x => x.Event, y => y.MapFrom(z => z.EventDto))
+                .ForMember(x => x.Participant, y => y.MapFrom(z => z.ParticipantDto));
+
+            CreateMap<Feedback, FeedbackDtoIn>().ReverseMap();
            
         }
     }

@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Text;
 
-using EventFeedbackAPI.Infra.Data.context;
-using EventFeedbackAPI.Infra.Data.repositories;
-using EventFeedbackAPI.Domain.interfaces;
 using EventFeedbackAPI.Application.mapper;
 using EventFeedbackAPI.Application.interfaces;
 using EventFeedbackAPI.Application.services;
+
+using EventFeedbackAPI.Domain.interfaces;
+using EventFeedbackAPI.Domain.authentication;
+
+using EventFeedbackAPI.Infra.Data.context;
+using EventFeedbackAPI.Infra.Data.repositories;
+using EventFeedbackAPI.Infra.Data.identity;
+
+
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -15,6 +21,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
  
+
 namespace EventFeedbackAPI.Infra.Ioc
 {
     public static class DependencyInjection
@@ -24,8 +31,11 @@ namespace EventFeedbackAPI.Infra.Ioc
         {
             services.AddDbContext<ApplicationDbContext>((options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
-                    x => x.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
+                options.UseSqlServer(
+                    configuration.GetConnectionString("DefaultConnection"),
+                    x => x.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)  
+                     
+                );
             }));
 
             services.AddAuthentication(opt =>  {
@@ -42,7 +52,7 @@ namespace EventFeedbackAPI.Infra.Ioc
                    ValidateIssuerSigningKey = true,
                    ValidIssuer = configuration["jwt:issuer"],
                    ValidAudience = configuration["jwt:audience"],
-                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["jwt:secrectKey"])),
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["jwt:secretKey"])),
                    ClockSkew = TimeSpan.Zero
                };
            }); 
@@ -57,6 +67,11 @@ namespace EventFeedbackAPI.Infra.Ioc
 
             services.AddScoped<IEventRepository, EventRepository>();
             services.AddScoped<IEventService, EventService>();
+
+            services.AddScoped<IFeedbackRepository, FeedbackRepository>();
+            services.AddScoped<IFeedbackService, FeedbackService>();
+
+            services.AddScoped<IAuthenticate, AuthenticateService>();
 
             return services;
 

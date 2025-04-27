@@ -14,7 +14,7 @@ namespace EventFeedbackAPI.Domain.Entities
         public string Comment { get; set; }
 
         public Event Event { get; set; }
-        public Participant participant { get; set; }
+        public Participant Participant { get; set; }
 
     
 

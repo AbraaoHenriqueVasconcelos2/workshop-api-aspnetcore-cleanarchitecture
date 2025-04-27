@@ -11,7 +11,7 @@ namespace EventFeedbackAPI.Application.dto
 {
     public class ParticipantDto
     {
-        [IgnoreDataMember]
+        //[IgnoreDataMember]
         public int Id { get;  set; }
 
         [Required(ErrorMessage = "cpf is required!")]
@@ -22,6 +22,8 @@ namespace EventFeedbackAPI.Application.dto
         [StringLength(20,   ErrorMessage = "The maximum number of characters is 20")]
         public string Password { get; set; }
 
+  
+        public bool IsAdmin { get; set; }
 
         [Required(ErrorMessage = "Name is required!")]
         [StringLength(100, ErrorMessage = "The maximum number of characters is 100")]
